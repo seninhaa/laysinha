@@ -19,3 +19,33 @@
 .container__imagem{
     padding: 1em;
 }
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+.container__botao:checked.lista-menu{
+    display: block;
+}
+.lista-menu__titulo,
+.lista-menu__item{
+    padding: 1m;
+    background-color: blueviolet;
+
+}
+.lista-menu__titulo{
+    color: black;
+    font-weight: 700;
+}
+.lista-menu__link{
+    background: rgb(20,20, 74);
+    -webkit-backdrop-clip: text;
+    -webkit-backdrop-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+
+}
+.container__botao{
+    display: none;
+}
