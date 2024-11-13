@@ -1,0 +1,19 @@
+.banner{
+    background: pink;
+    color: white;
+    text-align: center;
+    padding: ;
+
+}
+.banner__titulo{
+    font-size: ;
+    font-weight: 700;
+}
+.banner__texto{
+    font-weight: 700;
+    margin: 1em 0;
+}
+.banner__pesquisa{
+    background-color: black;
+    bottom: ;
+}
