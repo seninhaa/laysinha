@@ -15,5 +15,18 @@
 }
 .banner__pesquisa{
     background-color: black;
-    bottom: ;
+    border: 1px solid whitesmoke;
+    color: white;
+    border: 24px;
+    padding: 1em;
+    
+}
+.banner__pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    background: url("../img/Lupa.svg") no-repeat;
+    background-position: 1em;
 }
